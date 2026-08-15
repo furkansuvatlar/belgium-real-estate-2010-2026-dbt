@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_property_sales
+    description: "Statbel Belgium's cleaned staging model for real estate sales."
+    columns:
+      - name: sales_year
+        description: "The year that the sale took place."
+        tests:
+          - not_null
+      - name: refnis_code
+        description: "Municipality/District REFNIS geographic code."
+        tests:
+          - not_null
+      - name: refnis_level
+        description: "Geographic level (1:Country, 2:Region, 3:Province, 4:District, 5:Municipality)"
+        tests:
+          -  accepted_values:
+              values: [1, 2, 3, 4, 5]
+              quote: false
+        

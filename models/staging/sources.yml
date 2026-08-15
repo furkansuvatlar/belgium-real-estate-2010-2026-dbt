@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: statbel_raw
+    database: real-estate-project-505610
+    schema: raw_statbel
+    tables:
+      - name: property_sales
