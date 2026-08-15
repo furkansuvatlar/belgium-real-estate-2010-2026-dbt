@@ -6,7 +6,6 @@ End-to-end modern data stack project analyzing Belgian real estate prices using 
 * **Storage & Data Warehouse:** Google BigQuery
 * **Data Transformation & Modeling:** dbt Cloud (Staging & Marts layers with automated generic tests)
 * **Visualization:** Power BI Desktop
-* # 🇧🇪 Belgium Property Sales Analytics Pipeline
 
 *  **Live dbt Data Catalog & Lineage:**  https://furkansuvatlar.github.io/belgium-real-estate-2010-2026-dbt/
 *  **Power BI Dashboard Preview:** 
