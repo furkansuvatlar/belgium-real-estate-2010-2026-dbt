@@ -1,15 +1,16 @@
-Welcome to your new dbt project!
+# 🇧🇪 Belgium Property Sales Analytics Pipeline
 
-### Using the starter project
+End-to-end modern data stack project analyzing Belgian real estate prices using BigQuery, dbt, and Power BI.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Architecture & Tech Stack
+* **Storage & Data Warehouse:** Google BigQuery
+* **Data Transformation & Modeling:** dbt Cloud (Staging & Marts layers with automated generic tests)
+* **Visualization:** Power BI Desktop
 
+## Dashboard Preview
+![Belgium Property Sales Dashboard](dashboard.png)
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Project Key Highlights
+* Data cleaned and standardized across geographic levels (REFNIS codes).
+* Data freshness and quality checked via `not_null` and `accepted_values` generic tests in dbt.
+* Dimensional modeling applied to separate staging transformations from reporting marts (`fct_property_sales`).
