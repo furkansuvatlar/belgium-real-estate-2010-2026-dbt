@@ -8,7 +8,7 @@ End-to-end modern data stack project analyzing Belgian real estate prices using 
 * **Visualization:** Power BI Desktop
 
 ## Dashboard Preview
-![Belgium Property Sales Dashboard](dashboard.png)
+![Belgium Property Sales Dashboard](docs/dashboard.png)
 
 ## Project Key Highlights
 * Data cleaned and standardized across geographic levels (REFNIS codes).
